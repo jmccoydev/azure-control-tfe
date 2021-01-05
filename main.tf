@@ -18,7 +18,7 @@ resource "tfe_workspace" "azure_terraform_demo_setup" {
   organization   = var.org_name
   queue_all_runs = false
   vcs_repo {
-    identifier     = "akentosh/terraform-azure-demo"
+    identifier     = "jmccoydev/terraform-azure-demo"
     branch         = "master"
     oauth_token_id = var.oauth_token_id
   }
